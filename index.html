@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aire-Dev">
+    <meta name="description" content="calculator project">
+    <title>Calculadora-Calculator Facundo Aguilar.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="wrapper">
+    <main>
+        <section class="container">
+            <article class="calculator">
+                <input type="text" placeholder="0" id="result" readonly>
+                <button class="btnlg btnclear" type="button" value="c" onclick="clean()">C</button>
+                <button type="button" value="/" onclick="getData(this)">/</button>
+                <button type="button" value="*" onclick="getData(this)">*</button>
+                <button type="button" value="7" onclick="getData(this)">7</button>
+                <button type="button" value="8" onclick="getData(this)">8</button>
+                <button type="button" value="9" onclick="getData(this)">9</button>
+                <button type="button" value="-" onclick="getData(this)">-</button>
+                <button type="button" value="4" onclick="getData(this)">4</button>
+                <button type="button" value="5" onclick="getData(this)">5</button>
+                <button type="button" value="6" onclick="getData(this)">6</button>
+                <button class="btnplus" type="button" value="+" onclick="getData(this)">+</button>
+                <button type="button" value="1" onclick="getData(this)">1</button>
+                <button type="button" value="2" onclick="getData(this)">2</button>
+                <button type="button" value="3" onclick="getData(this)">3</button>
+                <button class="btnlg" type="button" value="=" onclick="calculate()">=</button>
+                <button type="button" value="0" onclick="getData(this)">0</button>
+                <button type="button" value="." onclick="getData(this)">.</button>
+            </article>
+        </section>
+    </main>
+    <script src="js/vanilla-tilt.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

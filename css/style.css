@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  background-color: #0e087b;
+  background-image: url("Textura.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: grid;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+  backdrop-filter: blur(15px);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.03);
+}
+
+
+#result {
+  grid-column: span 4;
+  height: 140px;
+  width: 300px;
+  text-align: right;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 30px;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+button {
+  background: transparent;
+  border-style: none;
+  width: 75px;
+  height: 75px;
+  color: #fff;
+  font-size: 20px;
+  user-select: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+  outline: none;
+  transition: 0.5s;
+  place-items: center;
+}
+
+button:hover {
+  transition: 0s;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+button:active {
+  background: #36a6f0;
+  font-size: 24px;
+}
+
+.btnlg {
+  grid-column: span 2;
+  width: 150px;
+}
+
+.btnplus {
+  grid-row: span 2;
+  height: 150px;
+}
+
+.btnclear {
+  background: rgba(255, 255, 255, 0.05);
+}
