@@ -11,7 +11,7 @@
 - **Grid Layout**: The calculator layout is designed using CSS Grid for easy positioning of buttons and display elements.
 - **Event Handling**: JavaScript handles user input events to perform calculations and update the display in real-time.
 - 
-## Tecnologias  - Programming languages
+## Tecnologias  
 - HTML
 - CSS
 - JavaScript
