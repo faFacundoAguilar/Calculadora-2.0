@@ -2,9 +2,7 @@
 # Calculator 2.0
 ## Features
 - **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
-- **Clear Functionality**: Clear the calculator display with the "C" button.
 - **Responsive Design**: The calculator adapts to various screen sizes, ensuring optimal viewing experience across devices. 📱
-
 ## Implementation Details
 - **Vanilla JavaScript**: The calculator functionality is implemented using vanilla JavaScript, avoiding the use of external libraries.
 - **CSS Styling**: Styling is done using CSS to create a visually appealing and intuitive user interface.
