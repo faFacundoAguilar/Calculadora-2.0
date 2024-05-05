@@ -1,4 +1,4 @@
-![2024-03-26 (8)](https://github.com/faFacundoAguilar/Calculadora-2.0/assets/124779712/b714f05e-c49c-4cff-8ec8-e9ce644ed69f)
+https://github.com/faFacundoAguilar/Calculadora-2.0/assets/124779712/e1ad99c1-e8c1-4eab-b016-ddfbe5f7e4de
 # Calculator 2.0
 ## Features
 - **Basic Arithmetic Operations**: Perform addition, subtraction, multiplication, and division.
